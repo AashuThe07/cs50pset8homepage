@@ -20,6 +20,13 @@ li {
     list-style: none;
 }
 
+p {
+    font-size: large;
+    font-weight: 800;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -29,7 +36,11 @@ a {
 a:hover{
     color: orange;
 }
-
+.GitLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
 .menu_btn {
     text-decoration: none;
     color: #fff;
@@ -40,6 +51,14 @@ a:hover{
 .menu_btn:hover {
     color: orange;
     scale: 1.1;
+}
+
+.buttonGrp {
+    display: flex;
+}
+
+.buttonGrp li {
+    margin: 5px;
 }
 
 /* HEADER */
@@ -139,8 +158,18 @@ header{
     justify-content: center;
 }
 
+.carousel-item h2{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.carousel-item p{
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
 section#hero {
-    margin: 10px;
+    margin: 50px;
     padding: 5px;
     height: calc(100vh - 60px);
     display: flex;
